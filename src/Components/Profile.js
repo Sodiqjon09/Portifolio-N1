@@ -1,5 +1,4 @@
 import React from "react";
-import ProfilePic from "../assets/profile-pic.png";
 import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
 
@@ -7,7 +6,7 @@ const Profile = () => {
   return (
     <section id="profile" className="container">
       <div className="section__pic-container">
-        <img src={ProfilePic} alt="John Doe profile" />
+        <img src="https://img.freepik.com/premium-vector/me-monogram-logo-design-letter-text-name-symbol-monochrome-logotype-alphabet-character-simple-logo_955145-2634.jpg?w=360" alt="John Doe profile" />
       </div>
       <div className="section__text">
         <p className="section__text__p1">Hello, I'm</p>

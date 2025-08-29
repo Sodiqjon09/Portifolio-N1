@@ -1,5 +1,4 @@
 import React from "react";
-import about from "../assets/about-pic.png";
 import experience from "../assets/experience.png";
 import education from "../assets/education.png";
 import arrow from "../assets/arrow.png";
@@ -11,7 +10,7 @@ const About = () => {
       <h1 className="title">About Me</h1>
       <div className="section-container">
         <div className="section__pic-container">
-          <img src={about} alt="Profile" className="about-pic" />
+          <img src="https://img.freepik.com/premium-vector/me-monogram-logo-design-letter-text-name-symbol-monochrome-logotype-alphabet-character-simple-logo_955145-2634.jpg?w=360" alt="Profile" className="about-pic" />
         </div>
         <div className="about-details-container">
           <div className="about-containers">
