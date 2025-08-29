@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import Portfolio from "./Portfolio";
 
 function App() {
-  return (
-    <div>App</div>
-  )
+  return <Portfolio />;
 }
 
-export default App
+export default App;
